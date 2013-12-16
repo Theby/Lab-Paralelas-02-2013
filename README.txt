@@ -25,7 +25,7 @@ que estos entren a la sección critica de forma "independiente" a nivel local, s
 la sincronicación de las variables compartidas provocan que el resultado final sea
 inconsistente al esperado.
 
-También existe una copia del programa en GitHub: Laboratorio 4 - openMP (Modular) v2.1
+También existe una copia del programa en GitHub: OMP-v2.1 Laboratorio 4 - openMP (Modular)
 	https://github.com/Theby/Lab-Paralelas-02-2013/releases
 
 Donde también es posible encontrar el enunciado del problema.
