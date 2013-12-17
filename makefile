@@ -28,10 +28,10 @@ default: $(TARGET)
 all: default
 
 $(TARGET): $(OBJECTS)
-        $(CC) $(OWR) -o $(EXEC) $(LIBS)
+		$(CC) $(OWR) -o $(EXEC) $(LIBS)
 
 %.o: %.cpp $(HEADERS)
-        $(CC) $(CFLAGS) $< -o $(OUT)$@ $(LIBS)
+		$(CC) $(CFLAGS) $< -o $(OUT)$@ $(LIBS)
 
 clean:
-        rm -rf $(OUT)*o ($TARGET)
+		rm -rf $(OUT)*o ($TARGET)
