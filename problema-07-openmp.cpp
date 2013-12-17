@@ -252,7 +252,7 @@ void problema_7(int num_threads, vector<Mouse> mouse_click, bool debugg, int* ta
 									cout << solucion_local.getOrdenObjeto() << endl;
 								}
 							
-							if(l_obj[j].getOrdenObjeto() >= solucion_local.getOrdenObjeto() || solucion_local.getTipo() == 'I'){
+							if(l_obj[j].getOrdenObjeto() >= solucion_local.getOrdenObjeto() || solucion_local.getTipo() != 'R'){
 								solucion_local = l_obj[j];
 								solucion_local.setOrdenMouse(mouse_click[i].getOrden());
 								soluciones_locales.push_back(solucion_local);
